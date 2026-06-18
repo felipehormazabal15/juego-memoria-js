@@ -1,0 +1,51 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    max-width:900px;
+    margin:20px auto;
+    padding:20px;
+    text-align:center;
+}
+
+.controles{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+#tablero{
+    display:grid;
+    gap:10px;
+}
+
+.carta{
+    height:90px;
+    font-size:2rem;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    transition:.2s;
+}
+
+.oculta{
+    background:#2c3e50;
+    color:transparent;
+}
+
+.volteada{
+    background:#ecf0f1;
+}
+
+.encontrada{
+    background:#2ecc71;
+}
+
+#mensaje{
+    margin-top:20px;
+    font-size:1.2rem;
+    font-weight:bold;
+}
